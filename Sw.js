@@ -7,8 +7,8 @@ const FILES_TO_CACHE = [
   "./img2.png",
   "./V1/monsterlist.js",
   "./V1/index.html",
-  "./V1.0.1/monsterlist.js",
-  "./V1.0.1/index.html",
+  "./V1.0.2/monsterlist.js",
+  "./V1.0.2/index.html",
 ];
 
 // INSTALL
