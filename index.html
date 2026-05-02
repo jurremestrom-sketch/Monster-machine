@@ -30,7 +30,8 @@
 <body>
 <h1 id="maintitel">MONSTER MACHINE</h1>
   <select id="selector">
-    <option>version 1.0.1 (most recent)</option>
+    <option>version 1.0.2 (most recent)</option>
+    <option>version 1.0.1</option>
     <option>version 1.0</option>
   </select>
   <br>
@@ -49,6 +50,7 @@
     <ul>
       <p><strong>added</strong></p>
       <li>Added extra monsters</li>
+      <li>added types</li>
       <p><strong>changes</strong></p>
       <li>pity system resets when you get the monster to prevent 100%</li>
 
@@ -61,7 +63,7 @@
       <li>First official version</li>
       <li>Added godly and ultra rare monsters</li>
       <li>Added version launcher</li>
-      <li>Adding monster deletion</li>
+      <li>Added monster deletion</li>
     </ul>
     </div>
   <script>
@@ -69,7 +71,9 @@
     
     setInterval(() => {
       let chosen = dropdown.value
-      if (chosen === "version 1.0.1 (most recent)") {
+      if (chosen === "version 1.0.2 (most recent)") {
+        document.getElementById("link").href = "V1.0.2/index.html" 
+      } else if (chosen === "version 1.0.1") {
         document.getElementById("link").href = "V1.0.1/index.html"
       }
       else if (chosen === "version 1.0") {
